@@ -1,0 +1,65 @@
+<!--pages/personaldata/personaldata.wxml-->
+<view class="personaldata">
+<!-- 轮播图 -->
+<view class="container">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='img'>
+        <swiper-item wx:for="{{background}}" wx:key="*this">
+            <view class="swiper-item">
+              <image src='{{item}}'></image>            
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 轮播图 -->
+<!--名片介绍 -->
+<view class="cont">
+  <view class='contheader'>王文慧</view>
+  <view class='contone'>
+    <view>
+        <text>手机</text>
+        <text class='text1'>17678012776</text>
+    </view>
+    <view>
+      <button size='mini' type='default'>拨打</button>
+    </view>
+  </view>
+   <view class='contone'>
+    <view>
+      <text>邮箱</text>
+      <text class='text1'>378812352@qq.com</text>
+    </view>
+    <view>
+      <button size='mini' type='default'>复制</button>
+    </view>
+  </view>
+   <view class='contone'>
+    <view>
+      <text>职业</text>
+      <text class='text1'>全栈开发</text>
+    </view>
+   <view>
+    <button size='mini' type='default'>复制</button>
+   </view>
+  </view>
+</view>
+<!--名片介绍 -->
+<view class="contlog">
+  <view class="contlognav">
+    <image src='../img/1.png' class='logzhiye'></image>
+    <text>生成海报</text>
+  </view>  
+   <view class="contlognav">
+    <image src='../img/2.png' class='logzhiye'></image>
+    <text>保存电话</text>
+  </view>  
+   <view class="contlognav">
+    <image src='../img/3.png' class='logzhiye'></image>
+    <text>分享好友</text>
+  </view>  
+</view>
+<!-- 二维码 -->
+<view class="erweima">
+    <image src='../img/f.jpg' class="imgerweima"></image>
+</view>
+</view>
