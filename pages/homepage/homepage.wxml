@@ -1,2 +1,27 @@
 <!--pages/homepage/homepage.wxml-->
-<text>这是首页</text>
+<view class="myhome">
+    <view class="myimg">
+      <image src="../img/ajpg.jpg"></image>
+    </view>
+    <view class="mycont">
+        <view class="gongzuo">工作经历</view>
+        <view class="gzcont">
+          <view class="gzcongone">2015-2016</view>
+          <view class="gzcongtwo">北京觉烁科技有限公司</view>
+        </view>
+        <view class="gzcont">
+          <view class="gzcongone">2017-2019</view>
+          <view class="gzcongtwo">北京赢美时代科技有限公司</view>
+        </view>
+        <view class="gongzuo">教育经历</view>
+        <view class="gzcont">
+          <view class="gzcongone">2012-2015</view>
+          <view class="gzcongtwo">中石油大学</view>
+        </view>
+        <view class="gzcont">
+          <view class="gzcongone">2009-2012</view>
+          <view class="gzcongtwo">卓资美术学院</view>
+        </view>
+    </view>
+</view>
+
